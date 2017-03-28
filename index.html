@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title> | Saif Shaikh | </title>
-		<meta charset="utf-8"/>
-		<!-- <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css"> -->
+<head>
+	<title> | Saif Shaikh | </title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+	<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet"> 
+</head>
 
-		<!-- <script type="text/javascript" src="js/input_name.js"></script> -->
-	</head>
+<body>
+	<div id="icondiv">
+		<img id="icon" src="Images/profileicon.jpeg">
+	</div>
+	
+	<script src="js/typed.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function(){
+			Typed.new("#intro", {
+				strings: ["Saif Shaikh", "Software Engineer"], 
+				loop:true, 
+				cursorChar: "|",
+				backSpeed: 70,
+				backDelay: 2000, 
+				typeSpeed: 70
+			});
+		});
 
-    <body>
+	</script>
+	<div id="intro"></div>
 
-				<form style="display:block;" action="pages/home.html" method="GET">Please type your name: <input type="text" name="nameForm"> <input type="submit" value="submit"></form>
-
-
-				<!-- <button onclick="getName()" href="pages/home.html"> Enter </button> -->
-
-        <!-- <h1 id="intro"></h1> -->
-
-
-
-
-    </body>
+</body>
 
 </html>
